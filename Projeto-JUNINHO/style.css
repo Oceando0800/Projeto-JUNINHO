@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #game {
+    width: 600px;
+    height: 600px;
+    background-color: #111;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid white;
+  }
+  
+  #player {
+    width: 40px;
+    height: 30px;
+    background-image: url('player.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 10px;
+    left: 280px;
+  }
+  
+  .bullet {
+    width: 4px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+  }
+  
+  .invader {
+    width: 30px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+  }
+  .invader.green {
+    background-image: url('green.png');
+  }
+  .invader.yellow {
+    background-image: url('yellow.png');
+  }
+  .invader.red {
+    background-image: url('red.png');
+  }
+
+  .bonus {
+    width: 40px;
+    height: 25px;
+    background-image: url('extra.png');
+    background-size: cover;
+    position: absolute;
+  }
+  .enemy-bullet {
+    width: 4px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+  }
+  
+  .barrier {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    opacity: 1;
+    border-radius: 4px;
+    background-image: url(New\ Piskel.png)
+  }
+  
